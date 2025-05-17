@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  /* Primary Colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral Colors */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+
+  /* Typography */
+  --font-body: 1rem;
+  --font-family: 'Red Hat Display', sans-serif;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+}
+
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-image: url('./images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    background-color: var(--pale-blue);
+    color: var(--dark-blue);
+    overflow-x: hidden;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.hero-img {
+    max-width: 100%;
+    height: 13.75rem;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+}
+
+.main {
+    padding-inline: 1.5rem;
+    max-width: 28.125rem;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+}
+
+.content {
+    padding-inline: 1.5rem;
+}
+
+h1 {
+    font-size: 1.4375rem;
+    font-weight: var(--font-weight-black);
+    margin-top: 1.475rem;
+    margin-bottom: 1.3rem;
+}
+
+.text {
+    color: var(--desaturated-blue);
+    font-size: 1.0635rem;
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 1rem;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--very-pale-blue);
+    border-radius: 0.7rem;
+    padding: 1rem;
+}
+
+.info {
+    display: flex;
+    gap: 1rem;
+}
+
+.plan {
+    font-weight: var(--font-weight-black);
+    font-size: 0.9375rem;
+}
+
+.value {
+    color: var(--desaturated-blue);
+    font-weight: var(--font-weight-bold);
+    font-size: 0.875rem;
+}
+
+.change-button {
+    font-size: 0.8125rem;
+    color: var(--bright-blue);
+    font-weight: var(--font-weight-black);
+    transition: .3s;
+}
+
+.change-button:hover {
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.7);
+}
+
+.proceed-btn {
+    display: block;
+    margin-inline: auto;
+    margin-block: 1.375rem;
+    width: 100%;
+    padding-block: 1rem;
+    border-radius: 0.6rem;
+    border: none;
+    outline: none;
+    background-color: var(--bright-blue);
+    color: var(--very-pale-blue);
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-black);
+    cursor: pointer;
+    box-shadow: 0 0.125rem 1rem hsla(245, 75%, 52%, 0.7);;
+    transition: .3s;
+}
+
+.proceed-btn:hover {
+    background-color: hsla(245, 75%, 52%, 0.7);
+}
+
+.cancle-btn {
+    display: inline-block;
+    padding-bottom: 2rem;
+    text-decoration: none;
+    color: var(--desaturated-blue);
+    font-weight: var(--font-weight-black);
+    transition: .3s;
+}
+
+.cancle-btn:hover {
+    color: var(--dark-blue);
+}
+
+@media (min-width: 700px) {
+    body {
+        background-image: url('./images/pattern-background-desktop.svg');
+    }
+
+    img {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .container {
+        border-radius: 1rem;
+    }
+
+    h1 {
+        font-size: 1.875rem;
+        margin-top: 2.4rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .text {
+        font-size: var(--font-body);
+        margin-bottom: 1.5rem;
+    }
+
+    .details {
+        border-radius: 0.7rem;
+        padding: 1.7rem;
+    }
+
+    .plan {
+        font-size: 1.0625rem;
+    }
+
+    .value {
+        font-size: var(--font-body);
+    }
+
+    .proceed-btn {
+        margin-block: 1.8rem;
+    }
+
+    .cancle-btn {
+        font-size: 0.9375rem;
+        padding-bottom: 3rem;
+    }
+}
