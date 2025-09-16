@@ -5,7 +5,7 @@ This is a solution to the [Order Summary Component challenge on Frontend Mentor]
 
 ### 🖥️ Live Demo
 
-You can view the live site here: [https://coder-irfan/github.io/order-summary-component/](https://coder-irfan/github.io/order-summary-component/)  
+You can view the live site here: [https://coder-irfan.github.io/order-summary-component/](https://coder-irfan.github.io/order-summary-component/)  
 
 
 ## 🚀 Overview
