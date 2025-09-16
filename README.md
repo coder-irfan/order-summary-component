@@ -5,7 +5,7 @@ This is a solution to the [Order Summary Component challenge on Frontend Mentor]
 
 ### 🖥️ Live Demo
 
-You can view the live site here: [https://your-live-link.vercel.app](https://your-live-link.vercel.app)  
+You can view the live site here: [https://your-live-link.vercel.app](https://coder-irfan/github.io.com)  
 
 
 ## 🚀 Overview
@@ -36,7 +36,7 @@ Users should be able to:
 
 ## 🧑‍💻 Author
 
-- GitHub: [Mohammad Irfan Noorzada](https://github.com/Mohammad-Irfan-Noorzada)
+- GitHub: [Mohammad Irfan Noorzada](https://github.com/coder-irfan)
 - Frontend Mentor: [@Mohammad-Irfan-Noorzada](https://www.frontendmentor.io/profile/Mohammad-Irfan-Noorzada)
 
 ## ✅ Acknowledgments
